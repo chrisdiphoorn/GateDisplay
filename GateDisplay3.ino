@@ -343,8 +343,8 @@ String authToken = "";
 
 char deviceHostName[33] = "GateDisplay1";   // The name of this sensor
 
-char ssid[32] = "The Avengers";             //  The Default Wifi SSDI
-char ssidpsk[64] = "0053AD92FC";            //  the Default Wifi PSK
+char ssid[32] = "WifiSSID";                 //  The Default Wifi SSDI
+char ssidpsk[64] = "XXXXXXXXXX";            //  the Default Wifi PSK
 
 #define WEB_PORT 80  // Port 80 Default for http (https is currently not supported)
 
@@ -448,7 +448,7 @@ unsigned long interval = 30000;
 
 const char versionID[10] = "1.3.1";
 
-#define XDUID "cc71e533-87d8-4dbf-b0de-3a36d12bb833"  // This identifier is used to ensure that all devices are allowed to communicate
+#define XDUID "rr71e233-87d8-4dbf-b1de-3a36d12bb833"  // This identifier is used to ensure that all devices are allowed to communicate
 char base64Buffer[128] = {0};
 char resultBuffer[128] = {0};
 
